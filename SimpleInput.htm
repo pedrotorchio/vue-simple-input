@@ -1,0 +1,18 @@
+<div class="simple-input">
+  <input class="input" 
+    :id='id' 
+    :type="type"
+    :class='classString'
+    :placeholder='placeholder'
+
+    v-bind='props'
+    v-model='model'>
+    
+    <v-icon v-if="validator != null && validateWhen(model)"
+      class="suffix"  
+      :color="validationColor" 
+      v-text="isValid() ? 'thumb_up' : 'thumb_down'"></v-icon>
+    <span v-else-if="suffix" 
+      class="suffix" 
+      v-text='suffix' ></span>
+</div>
