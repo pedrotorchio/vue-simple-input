@@ -1,6 +1,6 @@
 {
   "name": "vue-simple-input",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple Input Components for Vue, with nice props and mask options",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,10 @@
     "component",
     "input"
   ],
-  "author": "pedrotorchio",
+  "author": {
+    "name": "Pedro Torchio",
+    "email": "pedro@torchiodev.com",
+    "url": "http://www.torchiodev.com"
+  },
   "license": "ISC"
 }
